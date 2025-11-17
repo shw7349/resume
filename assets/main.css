@@ -5,6 +5,12 @@
   margin-bottom: 40px;
 }
 
+.container {
+  max-width: 980px;   /* 화면 중앙에 고정 */
+  margin: 0 auto;     /* 좌우 중앙 정렬 */
+  padding: 0 40px;    /* 좌우 여백 */
+}
+
 .left-area {
   display: flex;
   align-items: center;
